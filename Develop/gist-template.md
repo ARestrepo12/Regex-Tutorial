@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+Reqex is a tool used by many developers around the world. It is very useful when incorporating aspects of user input in your websites that need to be in a correct format. By creating a regex expression, you can tell a user if their input is in the correct format that the host wants it to be in. An example of this would be a contact form for someone to reach back out to you, and they need your email address to contact you. If the input is accidently not an acceptable email address format the user should be issued a warning to fix their email.
 
 ## Summary
 
