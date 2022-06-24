@@ -4,7 +4,9 @@ Reqex is a tool used by many developers around the world. It is very useful when
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+The regex expression that I will be describing to you today is the URL format. The format for a URL regex expression looks like this
+ /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+ I will explain to you what each of these symbols and letters mean in a regex expression, as well as how they fit for our example.
 
 ## Table of Contents
 
