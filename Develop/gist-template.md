@@ -41,18 +41,24 @@ A character class is used to describe letters or numbers, as well as special cha
 A flag is a optional parameter to a regex that modifies its behavior for searching. We do not have any flags in our example.
 
 ### Grouping and Capturing
-Grouping and capturing is a very important part of regex expressions. 
+Grouping and capturing is a very important part of regex expressions. They are how you seperate what you want in your expression. To capture a group you would use (). In our example above we have three different groups to explain our website name, the .com , and anything else afterwards to describe a specific part of the website.
 
 ### Bracket Expressions
+Bracket expressions are used to describe specific characters. An example of this would be [0-9] to match any character in that set range. We use them in the URL expression to show the range of digits or letters used to create the website name in the first set of brackets.
 
 ### Greedy and Lazy Match
+A greedy match means your expression will match as large a group as possible, a lazy match means it will match the smallest group possible.
 
 ### Boundaries
+Boundaries are used to separate groups. They are represented by \b and is not used in our expression above. You would use them if say you wanted letters on one side and numbers on another.
 
 ### Back-references
+A back-reference identifies a previously matched group and looks for exactly the same text again. It is not in our expression but is displayed as \b
 
 ### Look-ahead and Look-behind
+A look-ahead and a look-behind are pretty self explanatory. A look-behind means to check what is before your regex match and vice versa, a look-ahead means checking what is after your match. It is not necessary in our URL expression.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hello, my name is Alejandro Restrepo and I am a full-stack developer student.
+https://github.com/ARestrepo12
